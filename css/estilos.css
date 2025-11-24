@@ -1,0 +1,118 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #0d0d0d;
+  color: #e6e6e6;
+}
+
+.titulo {
+  font-size: 40px;
+  color: #ffc107;
+  text-shadow: 1px 1px 0px #000;
+  border-bottom: 2px solid #ffc107;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.foto-perfil {
+  border: 3px solid #ffc107;
+  box-shadow: 0 0 15px #ffc107;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-img {
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#carruselReloj .carousel-img {
+  max-height: 350px;
+  object-fit: contain;
+  object-position: center;
+  background-color: #1a1a1a;
+  padding: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.video-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+video {
+  border: 2px solid #ffc107;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: #000;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+}
+
+footer {
+  background-color: #000;
+  border-top: 2px solid #ffc107;
+  color: #ffc107;
+}
+
+.navbar {
+  background-color: #000;
+  border-bottom: 2px solid #ffc107;
+}
+
+.editable-note {
+  border: 1px dashed #ffc107;
+  border-radius: 5px;
+  min-height: 80px;
+  transition: all 0.3s ease;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.editable-note:focus {
+  border: 1px solid #ffc107;
+  background-color: #1a1a1a;
+  outline: none;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.popover {
+  background-color: #000;
+  border: 1px solid #ffc107;
+  max-width: 300px;
+}
+
+.popover-header {
+  background-color: #000;
+  color: #ffc107;
+  border-bottom: 1px solid #ffc107;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9rem;
+}
+
+.popover-body {
+  background-color: #000;
+  color: #e6e6e6;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.popover-body ul {
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+
+.popover-body li {
+  margin-bottom: 0.3rem;
+}
