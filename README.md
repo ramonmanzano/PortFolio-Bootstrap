@@ -18,14 +18,11 @@ La integración de audio se realizó considerando las políticas actuales de los
 - El volumen se configuró al 30% para crear ambiente sin resultar intrusivo
 
 ![Modal de Permisos de Audio](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/audioinicialboot.png)
-*Modal de Bootstrap que solicita permiso para activar el audio de fondo*
-
-![Aviso de Audio Principal](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/0b924b4d33c91a3725a63c5e89729d28b57e2deb/fotosPresentacion/audioinicialboot.png)
-*Modal de bienvenida que informa al usuario sobre el audio de fondo y solicita confirmación*
+*Modal de Bootstrap que solicita permiso para activar el audio de fondo - Diseño personalizado con tema oscuro y bordes amarillos*
 
 - Se implementó un modal de Bootstrap que se muestra al cargar la página, solicitando confirmación del usuario antes de iniciar la reproducción, cumpliendo así con las políticas de autoplay
 - El botón de silenciar en la barra de navegación utiliza JavaScript para alternar entre los estados mute/unmute
-- El modal presenta un diseño personalizado con bordes amarillos y texto claro, manteniendo la coherencia visual del tema oscuro
+- El modal presenta un diseño personalizado que mantiene la coherencia visual del tema general del portfolio
 
 #### Sistema de Video
 Para la sección de video curriculum:
