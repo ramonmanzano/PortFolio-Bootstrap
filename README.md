@@ -5,7 +5,7 @@
 ### Introducción
 Este portfolio profesional ha sido desarrollado como proyecto para los temas 7-8 de Diseño de Interfaces Web, centrándose en la integración avanzada de elementos multimedia. El objetivo principal era enriquecer la experiencia de usuario mediante la implementación funcional de audio y video, combinado con componentes interactivos de Bootstrap.
 
-![Estructura de Carpetas](https://ibb.co/HTsGJnZ5)
+![Estructura de Carpetas](https://i.ibb.co/ZzcRGMR9/estructura.png)
 *Estructura organizada de archivos y carpetas del proyecto*
 
 ### Implementación Multimedia Detallada
