@@ -5,10 +5,8 @@
 ### Introducción
 Este portfolio profesional ha sido desarrollado como proyecto para los temas 7-8 de Diseño de Interfaces Web, centrándose en la integración avanzada de elementos multimedia. El objetivo principal era enriquecer la experiencia de usuario mediante la implementación funcional de audio y video, combinado con componentes interactivos de Bootstrap.
 
-![Estructura de Carpetas](<img width="272" height="706" alt="videoboot" src="https://github.com/user-attachments/assets/536dcd7c-d70d-4c3a-829e-35ead351dbe3" />
-)
+![Estructura de Carpetas](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/estructura.png)
 *Estructura organizada de archivos y carpetas del proyecto*
-![Uploading image (19).png…]()
 
 ### Implementación Multimedia Detallada
 
@@ -19,7 +17,7 @@ La integración de audio se realizó considerando las políticas actuales de los
 - Incluye tres formatos diferentes: MP3 como formato universal, OGG para compatibilidad con Firefox, y WebM como alternativa moderna
 - El volumen se configuró al 30% para crear ambiente sin resultar intrusivo
 
-![Modal de Permisos de Audio](https://ibb.co/xS26VvWk)
+![Modal de Permisos de Audio](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/audioinicialboot.png)
 *Modal de Bootstrap que solicita permiso para activar el audio de fondo*
 
 - Se implementó un modal de Bootstrap que se muestra al cargar la página, solicitando confirmación del usuario antes de iniciar la reproducción, cumpliendo así con las políticas de autoplay
@@ -27,9 +25,6 @@ La integración de audio se realizó considerando las políticas actuales de los
 
 #### Sistema de Video
 Para la sección de video curriculum:
-
-![Video Curriculum](https://ibb.co/1fPvW29t)
-*Sección de video curriculum con poster y controles de reproducción*
 
 - Se empleó el elemento `<video>` de HTML5 con atributo `controls` para mostrar los controles nativos
 - Se configuró `preload="metadata"` para optimizar la carga inicial
@@ -39,28 +34,19 @@ Para la sección de video curriculum:
 
 ### Componentes Bootstrap Implementados
 
-#### Modal de Confirmación
-El modal se muestra automáticamente al cargar la página mediante JavaScript, utilizando la API de Bootstrap. Su diseño se personalizó con las clases de tema oscuro y bordes amarillos para mantener la coherencia visual.
-
-#### Sistema Collapse
-En la sección de información personal implementé un componente collapse que permite mostrar/ocultar datos adicionales. Utilicé los atributos `data-bs-toggle="collapse"` y `href` para crear la funcionalidad de acordeón.
-
-#### Tooltips Informativos
-Añadí tooltips a los controles de audio y botones interactivos usando `data-bs-toggle="tooltip"` y el atributo `title`. Los inicialicé mediante JavaScript con `new bootstrap.Tooltip()`.
-
-#### Popovers de Habilidades
+#### Popovers Informativos
 Para detallar los niveles de habilidad, implementé popovers con contenido HTML enriquecido usando `data-bs-toggle="popover"` y `data-bs-content` con etiquetas HTML.
 
-![Popover Habilidades Java](https://ibb.co/HD9spMyb)
+![Popover Habilidades Java](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/modal1boot.png)
 *Popover informativo mostrando detalles de habilidades en Java*
 
-![Popover Habilidades JavaScript](https://ibb.co/nsG13mDd)
+![Popover Habilidades JavaScript](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/modal2boot.png)
 *Popover informativo mostrando detalles de habilidades en JavaScript*
 
-![Popover Habilidades Frontend](https://ibb.co/RpBPJ7V1)
+![Popover Habilidades Frontend](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/modal3boot.png)
 *Popover informativo mostrando detalles de habilidades en Frontend*
 
-![Popover Tecnologías Reloj](https://ibb.co/gLkTxYj2)
+![Popover Tecnologías Reloj](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/modal4boot.png)
 *Popover informativo del proyecto del reloj programable*
 
 ### Elementos Interactivos HTML5
@@ -79,27 +65,27 @@ Utilicé el atributo `hidden` y la función `toggleAttribute()` para alternar la
 
 ### Vista General del Portfolio
 
-![Vista General 1](https://ibb.co/Sw0MVBJ9)
-*Vista completa del portfolio mostrando la estructura general*
+![Vista General 1](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/web1.png)
+*Vista completa del portfolio mostrando la estructura general y cabecera*
 
-![Vista General 2](https://ibb.co/yc3jq57Z)
-*Sección de proyectos y carrusel de imágenes*
+![Vista General 2](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/web2.png)
+*Sección de proyectos y carrusel de imágenes con elementos interactivos*
 
-![Vista General 3](https://ibb.co/N2BjN4Vm)
-*Sección de habilidades y elementos interactivos*
+![Vista General 3](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/web3.png)
+*Sección de habilidades y video curriculum con controles multimedia*
 
 ### Diseño Responsive
 
 El portfolio está completamente optimizado para dispositivos móviles, manteniendo todas las funcionalidades multimedia e interactivas en diferentes tamaños de pantalla.
 
-![Vista Mobile 1](https://ibb.co/pvHJzgvm)
-*Vista del portfolio en dispositivo móvil - Cabecera*
+![Vista Mobile 1](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/res1.png)
+*Vista del portfolio en dispositivo móvil - Navegación y cabecera adaptativa*
 
-![Vista Mobile 2](https://ibb.co/MD67qGB0)
-*Vista del portfolio en dispositivo móvil - Sección proyectos*
+![Vista Mobile 2](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/res2.png)
+*Vista del portfolio en dispositivo móvil - Sección proyectos con carrusel responsive*
 
-![Vista Mobile 3](https://ibb.co/bj0Fmb8q)
-*Vista del portfolio en dispositivo móvil - Sección habilidades*
+![Vista Mobile 3](https://raw.githubusercontent.com/ramonmanzano/PortFolio-Bootstrap/main/fotosPresentacion/res3.png)
+*Vista del portfolio en dispositivo móvil - Sección habilidades y elementos interactivos*
 
 ### Decisiones de Diseño Justificadas
 
