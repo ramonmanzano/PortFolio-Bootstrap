@@ -190,19 +190,6 @@ La selección de múltiples formatos garantiza compatibilidad con:
 **Problema**: Mantener funcionalidad en todos los dispositivos
 **Solución**: Diseño responsive y componentes touch-friendly
 
----
-
-## Resultados y Conclusión
-
-El proyecto demuestra una integración multimedia completa que:
-
-- ✅ Mejora la experiencia de usuario con elementos auditivos y visuales
-- ✅ Mantiene compatibilidad cross-browser del 98%+
-- ✅ Implementa best practices actuales de desarrollo web
-- ✅ Utiliza componentes Bootstrap de forma efectiva
-- ✅ Proporciona interfaz intuitiva y atractiva
-
-La combinación de HTML5 nativo, Bootstrap para interactividad, y JavaScript para control programático resulta en un portfolio robusto que cumple con todos los objetivos de aprendizaje de los temas 7-8.
 
 ---
 
